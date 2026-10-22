@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grip</string>
+    <string name="empty_title">فلوسك بطريقتك</string>
+    <string name="empty_text">حدد المبلغ والمدة اللي هيكفيها. وضيف الفئات وانت ماشي.</string>
+    <string name="start_budget">ابدأ ميزانية</string>
+    <string name="new_budget">ميزانية جديدة</string>
+    <string name="edit_budget">تعديل الميزانية</string>
+    <string name="total_amount">المبلغ الكلي</string>
+    <string name="duration">لمدة كام يوم؟</string>
+    <string name="days_unit">يوم</string>
+    <string name="budget_name">الاسم (اختياري)</string>
+    <string name="currency">العملة</string>
+    <string name="start">ابدأ</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="more">المزيد</string>
+
+    <string name="add_expense">ضيف مصروف</string>
+    <string name="amount">المبلغ</string>
+    <string name="invalid_amount">اكتب مبلغ</string>
+    <string name="note_hint">ملاحظة (اختياري)</string>
+    <string name="add">إضافة</string>
+    <string name="new_category">جديدة</string>
+    <string name="category_name">اسم الفئة</string>
+    <string name="delete_category">حذف الفئة دي؟</string>
+    <string name="other">أخرى</string>
+    <string name="recent">آخر المصروفات</string>
+    <string name="no_expenses">لسه ماصرفتش حاجة. اضغط + لما تصرف.</string>
+    <string name="expense_deleted">اتمسح المصروف</string>
+    <string name="undo">تراجع</string>
+
+    <string name="day_x_of_y">اليوم %1$d من %2$d</string>
+    <string name="left_of">متبقي من %1$s</string>
+    <string name="over_by">زيادة عن الميزانية</string>
+    <string name="per_day">%1$s في اليوم</string>
+    <string name="spent_today">صرفت النهاردة: %1$s</string>
+    <string name="pace_on_track">ماشي كويس</string>
+    <string name="pace_a_bit_fast">بسرعة شوية</string>
+    <string name="pace_slow_down">هدّي شوية</string>
+    <string name="pace_over">الميزانية خلصت</string>
+    <string name="pace_ended">المدة خلصت</string>
+
+    <plurals name="days_left">
+        <item quantity="zero">لا أيام متبقية</item>
+        <item quantity="one">باقي يوم</item>
+        <item quantity="two">باقي يومين</item>
+        <item quantity="few">باقي %d أيام</item>
+        <item quantity="many">باقي %d يومًا</item>
+        <item quantity="other">باقي %d يوم</item>
+    </plurals>
+    <plurals name="runs_out">
+        <item quantity="zero">بالمعدل ده الفلوس هتخلص النهاردة</item>
+        <item quantity="one">بالمعدل ده الفلوس بتكفي يوم تقريبًا</item>
+        <item quantity="two">بالمعدل ده الفلوس بتكفي يومين تقريبًا</item>
+        <item quantity="few">بالمعدل ده الفلوس بتكفي %d أيام تقريبًا</item>
+        <item quantity="many">بالمعدل ده الفلوس بتكفي %d يومًا تقريبًا</item>
+        <item quantity="other">بالمعدل ده الفلوس بتكفي %d يوم تقريبًا</item>
+    </plurals>
+</resources>

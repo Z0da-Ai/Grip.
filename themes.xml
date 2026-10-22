@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Grip" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#6D28D9</item>
+        <item name="android:navigationBarColor">#111827</item>
+    </style>
+</resources>

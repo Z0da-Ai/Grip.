@@ -1,0 +1,14 @@
+{
+  "package_name": "com.grip.app",
+  "default_language": "ar",
+  "arabic": {
+    "title": "Grip - اقبض على تركيزك",
+    "short_description": "تنظيم مهام ومذاكرة، منبه الصحوة الصارم، وإنفاذ إلزامي يقفل الهاتف حتى تنجز.",
+    "full_description": "تطبيق Grip: Hold your focus. Kill the drift.\n\nتطبيق الانضباط الصارم وإدارة المذاكرة والحياة اليومية، مصمم لمكافحة المماطلة وتشتت الانتباه (ADHD):\n\nالمميزات الرئيسية:\n1. شاشة الإنفاذ الإلزامي الصارم (Anti-Drift Overlay):\nقفل شاشة تفاعلي يجبرك على البدء في مهمتك أو اتخاذ قرار فوري (إنجاز مبكر، تمديد، أو إعادة جدولة بضريبة تركيز) مع منع أي تسويف.\n\n2. التعرف الذكي على جداول المحاضرات (حضور + مذاكرة):\nارفع صورة جدولك أو ملف PDF، ليتعرف الذكاء الاصطناعي فوراً على أوقات حضور الكلية، تفعيل منبهات دقيقة، وجدولة ساعتين مذاكرة تلقائية لكل محاضرة في أوقات الفراغ دون أي تضارب.\n\n3. المساعد الصوتي السريع:\nسجل صوتك لجدولة المواعيد، تسجيل المصاريف اليومية بالجنيه، أو حفظ النوايا اليومية بضغطة زر.\n\n4. إشعار النوايا وتفريغ الذهن الدائم (على بالك):\nإشعار مثبت ومستمر في ستارة إشعارات أندرويد العلوية يذكرك بأهم نية أو فكرة تريد التركيز عليها دون تشتت.\n\n5. فلوسك بطريقتك (إدارة الميزانية الذكية):\nنظام مصاريف ذكي يراقب الميزانية بدون تعقيد، مع حاسبة ذكية وفئات مخصصة.\n\n6. بياناتك على جهازك:\nالمهام والمصاريف محفوظة محليًا على هاتفك. الميزات الذكية (الصوت وقراءة الجداول) اختيارية وتتطلب إنترنت."
+  },
+  "english": {
+    "title": "Grip - Hold Your Focus",
+    "short_description": "Strict focus & task enforcement, punctual alarms, and smart study scheduler.",
+    "full_description": "Grip: Hold your focus. Kill the drift.\n\nThe strict self-discipline and time-blocking application engineered to eliminate procrastination and digital drift.\n\nKey Features:\n- System Lock Enforcement: Uncompromising overlay that locks procrastination when important tasks begin.\n- Smart Lecture Timetable & Companion Study Scheduler: Upload your university schedule to auto-detect class hours, set punctual alarms, and schedule 2-hour study blocks in free hours.\n- Voice Assistant: Log expenses, schedule tasks, or dump intentions hands-free.\n- Ongoing Notification Shade: Keep your core intention pinned at the top of Android's status bar.\n- Your data stays on your phone: tasks and expenses are stored locally. Smart features (voice, timetable reading) are optional and need internet."
+  }
+}
