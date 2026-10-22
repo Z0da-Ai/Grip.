@@ -1,0 +1,6 @@
+{
+  "name": "Grip",
+  "description": "Hold your focus. Kill the drift. Native Android life-management app with built-in calendar, escalating enforcement overlay, study hierarchy, positive tracking, and smart AI schedule assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

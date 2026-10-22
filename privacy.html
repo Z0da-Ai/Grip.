@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سياسة الخصوصية | Grip</title>
+  <link rel="icon" type="image/svg+xml" href="/icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #6D28D9;
+      --primary-hover: #5B21B6;
+      --bg: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --text: #1E293B;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0B0F19;
+        --card-bg: #111827;
+        --text: #F1F5F9;
+        --text-muted: #94A3B8;
+        --border: #1E293B;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 40px;
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      background: rgba(109, 40, 217, 0.1);
+      color: var(--primary);
+      border-radius: 100px;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 900;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .date {
+      color: var(--text-muted);
+      font-size: 13px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 800;
+      margin-top: 24px;
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+    p, li {
+      font-size: 14px;
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+    ul {
+      list-style-type: disc;
+      margin-right: 20px;
+      margin-bottom: 16px;
+    }
+    .highlight-box {
+      background: rgba(16, 185, 129, 0.08);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      border-radius: 16px;
+      padding: 16px;
+      margin: 20px 0;
+    }
+    .highlight-box p {
+      color: #065F46;
+      font-weight: 600;
+      margin: 0;
+    }
+    @media (prefers-color-scheme: dark) {
+      .highlight-box p { color: #34D399; }
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 24px;
+      background: var(--primary);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+      border-radius: 14px;
+      transition: background 0.2s;
+    }
+    .back-btn:hover {
+      background: var(--primary-hover);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="badge">Google Play Store Compliant</span>
+    <h1>سياسة الخصوصية لتطبيق Grip</h1>
+    <div class="date">آخر تحديث: 22 أكتوبر 2026 • الإصدار 1.0.0</div>
+
+    <div class="highlight-box">
+      <p>🛡️ نلتزم بحماية خصوصيتك بالكامل: تطبيق Grip صُمم ليعمل بنظام الحفظ المحلي (Offline-First). نحن لا نبيع بياناتك، ولا نشاركها مع أي أطراف ثالثة، ولا نعرض إعلانات.</p>
+    </div>
+
+    <h2>1. البيانات التي يتم جمعها وكيفية معالجتها</h2>
+    <p>تطبيق Grip يحفظ كافة البيانات الخاصة بك (المهام، الجداول، المصاريف، المحاضرات، النوايا، وتاريخ العادات) محلياً داخل ذاكرة جهازك (Local Storage / IndexedDB / Room Database). تبقى هذه البيانات ملكك وحدك ولا تغادر جهازك إلا في العمليات التي تطلبها بنفسك:</p>
+    <ul>
+      <li><strong>الأوامر الصوتية والذكاء الاصطناعي: عند استخدام المساعد الصوتي أو رفع صورة/PDF لجدول المحاضرات، يُرسَل النص المُملى أو الملف إلى خادم التطبيق ثم إلى واجهة Google Gemini لتحليله وإرجاع مهام أو مصاريف منظمة. لا نحفظ هذه المدخلات على خادمنا بعد انتهاء الطلب، وقد تُسجَّل أخطاء تقنية دون محتوى الملفات. تخضع معالجة Google لشروطها الخاصة. هذه الميزات اختيارية، والتطبيق يعمل بدونها.</strong> عند استخدام المساعد الصوتي، تتم معالجة الصوت إما محلياً عبر محرك التعرف الصوتي بالجهاز، أو عبر واجهة برمجة Google Gemini لتحليل الأمر وإعادته كإجراء منظم (مثل إنشاء مهمة أو قيد مصروف). لا يتم استخدام تسجيلاتك لتدريب النماذج أو تخزينها للأغراض التجارية.</li>
+      <li><strong>المصادقة وحساب Google: الملف الشخصي (الاسم والبريد إن أدخلته) يُحفظ على جهازك فقط ولا يُرسل إلى خادمنا.</strong> يتيح التطبيق تسجيل الدخول بحساب Google لربط ملفك الشخصي وتخصيص إعداداتك ومزامنة تفضيلاتك. لا نطلع على كلمات المرور ولا نطلب صلاحيات الوصول لرسائل بريدك أو ملفات Google Drive الخاصة بك.</li>
+    </ul>
+
+    <h2>2. الصلاحيات المطلوبة على أجهزة Android</h2>
+    <p>لتقديم تجربة الإنفاذ الإلزامي ومنع التشتت بكفاءة، قد يطلب التطبيق بعض الصلاحيات:</p>
+    <ul>
+      <li><strong>الميكروفون (Microphone):</strong> اختياري، يُستخدم فقط عند الضغط على زر المساعد الصوتي لإملاء المهام والمصاريف صوتياً.</li>
+      <li><strong>التنبيهات الدقيقة (SCHEDULE_EXACT_ALARM):</strong> لضمان رنين منبه الصحوة الحاسم ومواعيد المهام الثابتة في وقتها المحدد بدقة بالغة.</li>
+      <li><strong>الظهور فوق التطبيقات الأخرى (SYSTEM_ALERT_WINDOW):</strong> تُستخدم حصراً لشاشة الإنفاذ الإلزامي المؤقتة (Escalating Enforcement Overlay) عند موعد المهمة المقفلة لمساعدتك على التركيز.</li>
+    </ul>
+
+    <h2>3. مشاركة البيانات والإعلانات</h2>
+    <p>نحن لا نبيع، ولا نؤجر، ولا نشارك أي معلومات شخصية مع أي جهات خارجية أو شبكات إعلانية. التطبيق خالٍ تماماً من الإعلانات التتبعية (Ad-Free).</p>
+
+    <h2>4. أمان البيانات وحذفها</h2>
+    <p>بما أن بياناتك محفوظة محلياً على جهازك، يمكنك حذف كافة بياناتك بضغطة زر واحدة في أي وقت عبر الدخول إلى إعدادات التطبيق واختيار «إعادة ضبط المصنع» أو مسح بيانات التطبيق من إعدادات نظام أندرويد.</p>
+
+    <h2>5. التوافق مع سياسات Google Play</h2>
+    <p>نبذل جهدنا لاحترام خصوصيتك وفق سياسات Google Play. التطبيق غير موجّه للأطفال دون 13 عامًا. لطلب حذف أو الاستفسار عن أي بيانات تواصل معنا عبر البريد أدناه.</p>
+
+    <h2>6. تواصل معنا</h2>
+    <p>إذا كان لديك أي استفسار حول سياسة الخصوصية أو تطبيق Grip، يسعدنا تواصلك عبر البريد الإلكتروني المعتمد:</p>
+    <p><strong>البريد الإلكتروني للدعم:</strong> <a href="mailto:zodamoda2007@gmail.com" style="color: var(--primary); font-weight: bold;">zodamoda2007@gmail.com</a></p>
+
+    <a href="/" class="back-btn">← العودة للتطبيق</a>
+  </div>
+</body>
+</html>
